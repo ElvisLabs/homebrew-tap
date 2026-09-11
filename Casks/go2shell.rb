@@ -1,11 +1,11 @@
 cask "go2shell" do
-  version "1.1.0"
-  sha256 "38612c41f182c3a4eb04ca2b78b85fc2f78efcca4395598335f325bb4054abb8"
+  version "1.2.0"
+  sha256 "70a935be98abd708294a04977e2805984066ace10796f3a6551e3bdbf4c3168c"
 
-  url "https://github.com/dingtang2008/go2shell/releases/download/v#{version}/go2shell.zip"
+  url "https://github.com/ElvisLabs/go2shell/releases/download/v#{version}/go2shell.zip"
   name "go2shell"
   desc "Open terminal from Finder toolbar — fork with FinderSync extensions"
-  homepage "https://github.com/dingtang2008/go2shell"
+  homepage "https://github.com/ElvisLabs/go2shell"
 
   depends_on macos: ">= :sequoia"
 
