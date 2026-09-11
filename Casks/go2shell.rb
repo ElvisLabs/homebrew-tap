@@ -7,7 +7,7 @@ cask "go2shell" do
   desc "Open terminal from Finder toolbar — fork with FinderSync extensions"
   homepage "https://github.com/ElvisLabs/go2shell"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "go2shell.app"
 
